@@ -18,7 +18,7 @@ let package = Package(
             name: "SwiftLinter",
             dependencies: [],
         resources: [
-            .copy("swiftLint"),
+            .copy("swiftlint"),
             .copy("rules.yml")
         ]),
         .testTarget(
