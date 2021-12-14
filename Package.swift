@@ -19,7 +19,8 @@ let package = Package(
             dependencies: [],
         resources: [
             .copy("swiftlint"),
-            .copy("rules.yml")
+            .copy("rules.yml"),
+            .copy("SanitizeCode")
         ]),
         .testTarget(
             name: "SwiftLinterTests",
