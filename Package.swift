@@ -20,7 +20,7 @@ let package = Package(
         resources: [
             .copy("swiftlint"),
             .copy("rules.yml"),
-            .copy("SanitizeCode")
+            .copy("SanitizeCode.sh")
         ]),
         .testTarget(
             name: "SwiftLinterTests",
